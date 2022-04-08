@@ -1,0 +1,228 @@
+Determining if the C compiler works failed with the following output:
+Change Dir: C:/Users/fedin/CLionProjects/Game/cmake-build-release/CMakeFiles/CMakeTmp
+
+Run Build Command(s):C:/PROGRA~2/MINGW-~1/I686-8~1.0-P/mingw32/bin/mingw32-make.exe cmTC_1e607/fast && C:/PROGRA~2/MINGW-~1/I686-8~1.0-P/mingw32/bin/mingw32-make.exe -f CMakeFiles\cmTC_1e607.dir\build.make CMakeFiles/cmTC_1e607.dir/build
+mingw32-make.exe[1]: Entering directory 'C:/Users/fedin/CLionProjects/Game/cmake-build-release/CMakeFiles/CMakeTmp'
+Building C object CMakeFiles/cmTC_1e607.dir/testCCompiler.c.obj
+C:\PROGRA~2\MINGW-~1\I686-8~1.0-P\mingw32\bin\gcc.exe    -o CMakeFiles\cmTC_1e607.dir\testCCompiler.c.obj   -c C:\Users\fedin\CLionProjects\Game\cmake-build-release\CMakeFiles\CMakeTmp\testCCompiler.c
+Linking C executable cmTC_1e607.exe
+"C:\Program Files\JetBrains\CLion 2020.1\bin\cmake\win\bin\cmake.exe" -E cmake_link_script CMakeFiles\cmTC_1e607.dir\link.txt --verbose=1
+"C:\Program Files\JetBrains\CLion 2020.1\bin\cmake\win\bin\cmake.exe" -E remove -f CMakeFiles\cmTC_1e607.dir/objects.a
+C:\PROGRA~2\MINGW-~1\I686-8~1.0-P\mingw32\bin\ar.exe cr CMakeFiles\cmTC_1e607.dir/objects.a @CMakeFiles\cmTC_1e607.dir\objects1.rsp
+C:\PROGRA~2\MINGW-~1\I686-8~1.0-P\mingw32\bin\gcc.exe    -static-libgcc -static-libstdc++ -static-libwinpthread  -Wl,--whole-archive CMakeFiles\cmTC_1e607.dir/objects.a -Wl,--no-whole-archive  -o cmTC_1e607.exe -Wl,--out-implib,libcmTC_1e607.dll.a -Wl,--major-image-version,0,--minor-image-version,0 @CMakeFiles\cmTC_1e607.dir\linklibs.rsp
+gcc.exe: error: unrecognized command line option '-static-libwinpthread'; did you mean '-static-libgfortran'?
+mingw32-make.exe[1]: *** [CMakeFiles\cmTC_1e607.dir\build.make:88: cmTC_1e607.exe] Error 1
+mingw32-make.exe[1]: Leaving directory 'C:/Users/fedin/CLionProjects/Game/cmake-build-release/CMakeFiles/CMakeTmp'
+mingw32-make.exe: *** [Makefile:120: cmTC_1e607/fast] Error 2
+
+
+
+Determining if the C compiler works failed with the following output:
+Change Dir: C:/Users/fedin/CLionProjects/Game/cmake-build-release/CMakeFiles/CMakeTmp
+
+Run Build Command(s):C:/PROGRA~2/MINGW-~1/I686-8~1.0-P/mingw32/bin/mingw32-make.exe cmTC_74cc6/fast && C:/PROGRA~2/MINGW-~1/I686-8~1.0-P/mingw32/bin/mingw32-make.exe -f CMakeFiles\cmTC_74cc6.dir\build.make CMakeFiles/cmTC_74cc6.dir/build
+mingw32-make.exe[1]: Entering directory 'C:/Users/fedin/CLionProjects/Game/cmake-build-release/CMakeFiles/CMakeTmp'
+Building C object CMakeFiles/cmTC_74cc6.dir/testCCompiler.c.obj
+C:\PROGRA~2\MINGW-~1\I686-8~1.0-P\mingw32\bin\gcc.exe    -o CMakeFiles\cmTC_74cc6.dir\testCCompiler.c.obj   -c C:\Users\fedin\CLionProjects\Game\cmake-build-release\CMakeFiles\CMakeTmp\testCCompiler.c
+Linking C executable cmTC_74cc6.exe
+"C:\Program Files\JetBrains\CLion 2020.1\bin\cmake\win\bin\cmake.exe" -E cmake_link_script CMakeFiles\cmTC_74cc6.dir\link.txt --verbose=1
+"C:\Program Files\JetBrains\CLion 2020.1\bin\cmake\win\bin\cmake.exe" -E remove -f CMakeFiles\cmTC_74cc6.dir/objects.a
+C:\PROGRA~2\MINGW-~1\I686-8~1.0-P\mingw32\bin\ar.exe cr CMakeFiles\cmTC_74cc6.dir/objects.a @CMakeFiles\cmTC_74cc6.dir\objects1.rsp
+C:\PROGRA~2\MINGW-~1\I686-8~1.0-P\mingw32\bin\gcc.exe    -static-libgcc -static-libstdc++ -static-libwinpthread  -Wl,--whole-archive CMakeFiles\cmTC_74cc6.dir/objects.a -Wl,--no-whole-archive  -o cmTC_74cc6.exe -Wl,--out-implib,libcmTC_74cc6.dll.a -Wl,--major-image-version,0,--minor-image-version,0 @CMakeFiles\cmTC_74cc6.dir\linklibs.rsp
+gcc.exe: error: unrecognized command line option '-static-libwinpthread'; did you mean '-static-libgfortran'?
+mingw32-make.exe[1]: *** [CMakeFiles\cmTC_74cc6.dir\build.make:88: cmTC_74cc6.exe] Error 1
+mingw32-make.exe[1]: Leaving directory 'C:/Users/fedin/CLionProjects/Game/cmake-build-release/CMakeFiles/CMakeTmp'
+mingw32-make.exe: *** [Makefile:120: cmTC_74cc6/fast] Error 2
+
+
+
+Determining if the C compiler works failed with the following output:
+Change Dir: C:/Users/fedin/CLionProjects/Game/cmake-build-release/CMakeFiles/CMakeTmp
+
+Run Build Command(s):C:/PROGRA~2/MINGW-~1/I686-8~1.0-P/mingw32/bin/mingw32-make.exe cmTC_e2813/fast && C:/PROGRA~2/MINGW-~1/I686-8~1.0-P/mingw32/bin/mingw32-make.exe -f CMakeFiles\cmTC_e2813.dir\build.make CMakeFiles/cmTC_e2813.dir/build
+mingw32-make.exe[1]: Entering directory 'C:/Users/fedin/CLionProjects/Game/cmake-build-release/CMakeFiles/CMakeTmp'
+Building C object CMakeFiles/cmTC_e2813.dir/testCCompiler.c.obj
+C:\PROGRA~2\MINGW-~1\I686-8~1.0-P\mingw32\bin\gcc.exe    -o CMakeFiles\cmTC_e2813.dir\testCCompiler.c.obj   -c C:\Users\fedin\CLionProjects\Game\cmake-build-release\CMakeFiles\CMakeTmp\testCCompiler.c
+Linking C executable cmTC_e2813.exe
+"C:\Program Files\JetBrains\CLion 2020.1\bin\cmake\win\bin\cmake.exe" -E cmake_link_script CMakeFiles\cmTC_e2813.dir\link.txt --verbose=1
+"C:\Program Files\JetBrains\CLion 2020.1\bin\cmake\win\bin\cmake.exe" -E remove -f CMakeFiles\cmTC_e2813.dir/objects.a
+C:\PROGRA~2\MINGW-~1\I686-8~1.0-P\mingw32\bin\ar.exe cr CMakeFiles\cmTC_e2813.dir/objects.a @CMakeFiles\cmTC_e2813.dir\objects1.rsp
+C:\PROGRA~2\MINGW-~1\I686-8~1.0-P\mingw32\bin\gcc.exe    -static-libgcc -static-libstdc++ -static-libwinpthread  -Wl,--whole-archive CMakeFiles\cmTC_e2813.dir/objects.a -Wl,--no-whole-archive  -o cmTC_e2813.exe -Wl,--out-implib,libcmTC_e2813.dll.a -Wl,--major-image-version,0,--minor-image-version,0 @CMakeFiles\cmTC_e2813.dir\linklibs.rsp
+gcc.exe: error: unrecognized command line option '-static-libwinpthread'; did you mean '-static-libgfortran'?
+mingw32-make.exe[1]: *** [CMakeFiles\cmTC_e2813.dir\build.make:88: cmTC_e2813.exe] Error 1
+mingw32-make.exe[1]: Leaving directory 'C:/Users/fedin/CLionProjects/Game/cmake-build-release/CMakeFiles/CMakeTmp'
+mingw32-make.exe: *** [Makefile:120: cmTC_e2813/fast] Error 2
+
+
+
+Determining if the C compiler works failed with the following output:
+Change Dir: C:/Users/fedin/CLionProjects/Game/cmake-build-release/CMakeFiles/CMakeTmp
+
+Run Build Command(s):C:/PROGRA~2/MINGW-~1/I686-8~1.0-P/mingw32/bin/mingw32-make.exe cmTC_460e0/fast && C:/PROGRA~2/MINGW-~1/I686-8~1.0-P/mingw32/bin/mingw32-make.exe -f CMakeFiles\cmTC_460e0.dir\build.make CMakeFiles/cmTC_460e0.dir/build
+mingw32-make.exe[1]: Entering directory 'C:/Users/fedin/CLionProjects/Game/cmake-build-release/CMakeFiles/CMakeTmp'
+Building C object CMakeFiles/cmTC_460e0.dir/testCCompiler.c.obj
+C:\PROGRA~2\MINGW-~1\I686-8~1.0-P\mingw32\bin\gcc.exe    -o CMakeFiles\cmTC_460e0.dir\testCCompiler.c.obj   -c C:\Users\fedin\CLionProjects\Game\cmake-build-release\CMakeFiles\CMakeTmp\testCCompiler.c
+Linking C executable cmTC_460e0.exe
+"C:\Program Files\JetBrains\CLion 2020.1\bin\cmake\win\bin\cmake.exe" -E cmake_link_script CMakeFiles\cmTC_460e0.dir\link.txt --verbose=1
+"C:\Program Files\JetBrains\CLion 2020.1\bin\cmake\win\bin\cmake.exe" -E remove -f CMakeFiles\cmTC_460e0.dir/objects.a
+C:\PROGRA~2\MINGW-~1\I686-8~1.0-P\mingw32\bin\ar.exe cr CMakeFiles\cmTC_460e0.dir/objects.a @CMakeFiles\cmTC_460e0.dir\objects1.rsp
+C:\PROGRA~2\MINGW-~1\I686-8~1.0-P\mingw32\bin\gcc.exe    -static-libgcc -static-libstdc++ -static-libwinpthread  -Wl,--whole-archive CMakeFiles\cmTC_460e0.dir/objects.a -Wl,--no-whole-archive  -o cmTC_460e0.exe -Wl,--out-implib,libcmTC_460e0.dll.a -Wl,--major-image-version,0,--minor-image-version,0 @CMakeFiles\cmTC_460e0.dir\linklibs.rsp
+gcc.exe: error: unrecognized command line option '-static-libwinpthread'; did you mean '-static-libgfortran'?
+mingw32-make.exe[1]: *** [CMakeFiles\cmTC_460e0.dir\build.make:88: cmTC_460e0.exe] Error 1
+mingw32-make.exe[1]: Leaving directory 'C:/Users/fedin/CLionProjects/Game/cmake-build-release/CMakeFiles/CMakeTmp'
+mingw32-make.exe: *** [Makefile:120: cmTC_460e0/fast] Error 2
+
+
+
+Determining if the C compiler works failed with the following output:
+Change Dir: C:/Users/fedin/CLionProjects/Game/cmake-build-release/CMakeFiles/CMakeTmp
+
+Run Build Command(s):C:/PROGRA~2/MINGW-~1/I686-8~1.0-P/mingw32/bin/mingw32-make.exe cmTC_f2084/fast && C:/PROGRA~2/MINGW-~1/I686-8~1.0-P/mingw32/bin/mingw32-make.exe -f CMakeFiles\cmTC_f2084.dir\build.make CMakeFiles/cmTC_f2084.dir/build
+mingw32-make.exe[1]: Entering directory 'C:/Users/fedin/CLionProjects/Game/cmake-build-release/CMakeFiles/CMakeTmp'
+Building C object CMakeFiles/cmTC_f2084.dir/testCCompiler.c.obj
+C:\PROGRA~2\MINGW-~1\I686-8~1.0-P\mingw32\bin\gcc.exe    -o CMakeFiles\cmTC_f2084.dir\testCCompiler.c.obj   -c C:\Users\fedin\CLionProjects\Game\cmake-build-release\CMakeFiles\CMakeTmp\testCCompiler.c
+Linking C executable cmTC_f2084.exe
+"C:\Program Files\JetBrains\CLion 2020.1\bin\cmake\win\bin\cmake.exe" -E cmake_link_script CMakeFiles\cmTC_f2084.dir\link.txt --verbose=1
+"C:\Program Files\JetBrains\CLion 2020.1\bin\cmake\win\bin\cmake.exe" -E remove -f CMakeFiles\cmTC_f2084.dir/objects.a
+C:\PROGRA~2\MINGW-~1\I686-8~1.0-P\mingw32\bin\ar.exe cr CMakeFiles\cmTC_f2084.dir/objects.a @CMakeFiles\cmTC_f2084.dir\objects1.rsp
+C:\PROGRA~2\MINGW-~1\I686-8~1.0-P\mingw32\bin\gcc.exe    -static-libgcc -static-libstdc++ -static-libwinpthread  -Wl,--whole-archive CMakeFiles\cmTC_f2084.dir/objects.a -Wl,--no-whole-archive  -o cmTC_f2084.exe -Wl,--out-implib,libcmTC_f2084.dll.a -Wl,--major-image-version,0,--minor-image-version,0 @CMakeFiles\cmTC_f2084.dir\linklibs.rsp
+gcc.exe: error: unrecognized command line option '-static-libwinpthread'; did you mean '-static-libgfortran'?
+mingw32-make.exe[1]: *** [CMakeFiles\cmTC_f2084.dir\build.make:88: cmTC_f2084.exe] Error 1
+mingw32-make.exe[1]: Leaving directory 'C:/Users/fedin/CLionProjects/Game/cmake-build-release/CMakeFiles/CMakeTmp'
+mingw32-make.exe: *** [Makefile:120: cmTC_f2084/fast] Error 2
+
+
+
+Determining if the C compiler works failed with the following output:
+Change Dir: C:/Users/fedin/CLionProjects/Game/cmake-build-release/CMakeFiles/CMakeTmp
+
+Run Build Command(s):C:/PROGRA~2/MINGW-~1/I686-8~1.0-P/mingw32/bin/mingw32-make.exe cmTC_32986/fast && C:/PROGRA~2/MINGW-~1/I686-8~1.0-P/mingw32/bin/mingw32-make.exe -f CMakeFiles\cmTC_32986.dir\build.make CMakeFiles/cmTC_32986.dir/build
+mingw32-make.exe[1]: Entering directory 'C:/Users/fedin/CLionProjects/Game/cmake-build-release/CMakeFiles/CMakeTmp'
+Building C object CMakeFiles/cmTC_32986.dir/testCCompiler.c.obj
+C:\PROGRA~2\MINGW-~1\I686-8~1.0-P\mingw32\bin\gcc.exe    -o CMakeFiles\cmTC_32986.dir\testCCompiler.c.obj   -c C:\Users\fedin\CLionProjects\Game\cmake-build-release\CMakeFiles\CMakeTmp\testCCompiler.c
+Linking C executable cmTC_32986.exe
+"C:\Program Files\JetBrains\CLion 2020.1\bin\cmake\win\bin\cmake.exe" -E cmake_link_script CMakeFiles\cmTC_32986.dir\link.txt --verbose=1
+"C:\Program Files\JetBrains\CLion 2020.1\bin\cmake\win\bin\cmake.exe" -E remove -f CMakeFiles\cmTC_32986.dir/objects.a
+C:\PROGRA~2\MINGW-~1\I686-8~1.0-P\mingw32\bin\ar.exe cr CMakeFiles\cmTC_32986.dir/objects.a @CMakeFiles\cmTC_32986.dir\objects1.rsp
+C:\PROGRA~2\MINGW-~1\I686-8~1.0-P\mingw32\bin\gcc.exe    -static-libgcc -static-libstdc++ -static-libwinpthread  -Wl,--whole-archive CMakeFiles\cmTC_32986.dir/objects.a -Wl,--no-whole-archive  -o cmTC_32986.exe -Wl,--out-implib,libcmTC_32986.dll.a -Wl,--major-image-version,0,--minor-image-version,0 @CMakeFiles\cmTC_32986.dir\linklibs.rsp
+gcc.exe: error: unrecognized command line option '-static-libwinpthread'; did you mean '-static-libgfortran'?
+mingw32-make.exe[1]: *** [CMakeFiles\cmTC_32986.dir\build.make:88: cmTC_32986.exe] Error 1
+mingw32-make.exe[1]: Leaving directory 'C:/Users/fedin/CLionProjects/Game/cmake-build-release/CMakeFiles/CMakeTmp'
+mingw32-make.exe: *** [Makefile:120: cmTC_32986/fast] Error 2
+
+
+
+Determining if the C compiler works failed with the following output:
+Change Dir: C:/Users/fedin/CLionProjects/Game/cmake-build-release/CMakeFiles/CMakeTmp
+
+Run Build Command(s):C:/PROGRA~2/MINGW-~1/I686-8~1.0-P/mingw32/bin/mingw32-make.exe cmTC_45aaf/fast && C:/PROGRA~2/MINGW-~1/I686-8~1.0-P/mingw32/bin/mingw32-make.exe -f CMakeFiles\cmTC_45aaf.dir\build.make CMakeFiles/cmTC_45aaf.dir/build
+mingw32-make.exe[1]: Entering directory 'C:/Users/fedin/CLionProjects/Game/cmake-build-release/CMakeFiles/CMakeTmp'
+Building C object CMakeFiles/cmTC_45aaf.dir/testCCompiler.c.obj
+C:\PROGRA~2\MINGW-~1\I686-8~1.0-P\mingw32\bin\gcc.exe    -o CMakeFiles\cmTC_45aaf.dir\testCCompiler.c.obj   -c C:\Users\fedin\CLionProjects\Game\cmake-build-release\CMakeFiles\CMakeTmp\testCCompiler.c
+Linking C executable cmTC_45aaf.exe
+"C:\Program Files\JetBrains\CLion 2020.1\bin\cmake\win\bin\cmake.exe" -E cmake_link_script CMakeFiles\cmTC_45aaf.dir\link.txt --verbose=1
+"C:\Program Files\JetBrains\CLion 2020.1\bin\cmake\win\bin\cmake.exe" -E remove -f CMakeFiles\cmTC_45aaf.dir/objects.a
+C:\PROGRA~2\MINGW-~1\I686-8~1.0-P\mingw32\bin\ar.exe cr CMakeFiles\cmTC_45aaf.dir/objects.a @CMakeFiles\cmTC_45aaf.dir\objects1.rsp
+C:\PROGRA~2\MINGW-~1\I686-8~1.0-P\mingw32\bin\gcc.exe    -static-libgcc -static-libstdc++ -static-libwinpthread  -Wl,--whole-archive CMakeFiles\cmTC_45aaf.dir/objects.a -Wl,--no-whole-archive  -o cmTC_45aaf.exe -Wl,--out-implib,libcmTC_45aaf.dll.a -Wl,--major-image-version,0,--minor-image-version,0 @CMakeFiles\cmTC_45aaf.dir\linklibs.rsp
+gcc.exe: error: unrecognized command line option '-static-libwinpthread'; did you mean '-static-libgfortran'?
+mingw32-make.exe[1]: *** [CMakeFiles\cmTC_45aaf.dir\build.make:88: cmTC_45aaf.exe] Error 1
+mingw32-make.exe[1]: Leaving directory 'C:/Users/fedin/CLionProjects/Game/cmake-build-release/CMakeFiles/CMakeTmp'
+mingw32-make.exe: *** [Makefile:120: cmTC_45aaf/fast] Error 2
+
+
+
+Determining if the C compiler works failed with the following output:
+Change Dir: C:/Users/fedin/CLionProjects/Game/cmake-build-release/CMakeFiles/CMakeTmp
+
+Run Build Command(s):C:/PROGRA~2/MINGW-~1/I686-8~1.0-P/mingw32/bin/mingw32-make.exe cmTC_90aa1/fast && C:/PROGRA~2/MINGW-~1/I686-8~1.0-P/mingw32/bin/mingw32-make.exe -f CMakeFiles\cmTC_90aa1.dir\build.make CMakeFiles/cmTC_90aa1.dir/build
+mingw32-make.exe[1]: Entering directory 'C:/Users/fedin/CLionProjects/Game/cmake-build-release/CMakeFiles/CMakeTmp'
+Building C object CMakeFiles/cmTC_90aa1.dir/testCCompiler.c.obj
+C:\PROGRA~2\MINGW-~1\I686-8~1.0-P\mingw32\bin\gcc.exe    -o CMakeFiles\cmTC_90aa1.dir\testCCompiler.c.obj   -c C:\Users\fedin\CLionProjects\Game\cmake-build-release\CMakeFiles\CMakeTmp\testCCompiler.c
+Linking C executable cmTC_90aa1.exe
+"C:\Program Files\JetBrains\CLion 2020.1\bin\cmake\win\bin\cmake.exe" -E cmake_link_script CMakeFiles\cmTC_90aa1.dir\link.txt --verbose=1
+"C:\Program Files\JetBrains\CLion 2020.1\bin\cmake\win\bin\cmake.exe" -E remove -f CMakeFiles\cmTC_90aa1.dir/objects.a
+C:\PROGRA~2\MINGW-~1\I686-8~1.0-P\mingw32\bin\ar.exe cr CMakeFiles\cmTC_90aa1.dir/objects.a @CMakeFiles\cmTC_90aa1.dir\objects1.rsp
+C:\PROGRA~2\MINGW-~1\I686-8~1.0-P\mingw32\bin\gcc.exe    -static-libgcc -static-libstdc++ -static-libwinpthread  -Wl,--whole-archive CMakeFiles\cmTC_90aa1.dir/objects.a -Wl,--no-whole-archive  -o cmTC_90aa1.exe -Wl,--out-implib,libcmTC_90aa1.dll.a -Wl,--major-image-version,0,--minor-image-version,0 @CMakeFiles\cmTC_90aa1.dir\linklibs.rsp
+gcc.exe: error: unrecognized command line option '-static-libwinpthread'; did you mean '-static-libgfortran'?
+mingw32-make.exe[1]: *** [CMakeFiles\cmTC_90aa1.dir\build.make:88: cmTC_90aa1.exe] Error 1
+mingw32-make.exe[1]: Leaving directory 'C:/Users/fedin/CLionProjects/Game/cmake-build-release/CMakeFiles/CMakeTmp'
+mingw32-make.exe: *** [Makefile:120: cmTC_90aa1/fast] Error 2
+
+
+
+Determining if the C compiler works failed with the following output:
+Change Dir: C:/Users/fedin/CLionProjects/Game/cmake-build-release/CMakeFiles/CMakeTmp
+
+Run Build Command(s):C:/PROGRA~2/MINGW-~1/I686-8~1.0-P/mingw32/bin/mingw32-make.exe cmTC_82349/fast && C:/PROGRA~2/MINGW-~1/I686-8~1.0-P/mingw32/bin/mingw32-make.exe -f CMakeFiles\cmTC_82349.dir\build.make CMakeFiles/cmTC_82349.dir/build
+mingw32-make.exe[1]: Entering directory 'C:/Users/fedin/CLionProjects/Game/cmake-build-release/CMakeFiles/CMakeTmp'
+Building C object CMakeFiles/cmTC_82349.dir/testCCompiler.c.obj
+C:\PROGRA~2\MINGW-~1\I686-8~1.0-P\mingw32\bin\gcc.exe    -o CMakeFiles\cmTC_82349.dir\testCCompiler.c.obj   -c C:\Users\fedin\CLionProjects\Game\cmake-build-release\CMakeFiles\CMakeTmp\testCCompiler.c
+Linking C executable cmTC_82349.exe
+"C:\Program Files\JetBrains\CLion 2020.1\bin\cmake\win\bin\cmake.exe" -E cmake_link_script CMakeFiles\cmTC_82349.dir\link.txt --verbose=1
+"C:\Program Files\JetBrains\CLion 2020.1\bin\cmake\win\bin\cmake.exe" -E remove -f CMakeFiles\cmTC_82349.dir/objects.a
+C:\PROGRA~2\MINGW-~1\I686-8~1.0-P\mingw32\bin\ar.exe cr CMakeFiles\cmTC_82349.dir/objects.a @CMakeFiles\cmTC_82349.dir\objects1.rsp
+C:\PROGRA~2\MINGW-~1\I686-8~1.0-P\mingw32\bin\gcc.exe    -static-libgcc -static-libstdc++ -static-libwinpthread  -Wl,--whole-archive CMakeFiles\cmTC_82349.dir/objects.a -Wl,--no-whole-archive  -o cmTC_82349.exe -Wl,--out-implib,libcmTC_82349.dll.a -Wl,--major-image-version,0,--minor-image-version,0 @CMakeFiles\cmTC_82349.dir\linklibs.rsp
+gcc.exe: error: unrecognized command line option '-static-libwinpthread'; did you mean '-static-libgfortran'?
+mingw32-make.exe[1]: *** [CMakeFiles\cmTC_82349.dir\build.make:88: cmTC_82349.exe] Error 1
+mingw32-make.exe[1]: Leaving directory 'C:/Users/fedin/CLionProjects/Game/cmake-build-release/CMakeFiles/CMakeTmp'
+mingw32-make.exe: *** [Makefile:120: cmTC_82349/fast] Error 2
+
+
+
+Determining if the C compiler works failed with the following output:
+Change Dir: C:/Users/fedin/CLionProjects/Game/cmake-build-release/CMakeFiles/CMakeTmp
+
+Run Build Command(s):C:/PROGRA~2/MINGW-~1/I686-8~1.0-P/mingw32/bin/mingw32-make.exe cmTC_26364/fast && C:/PROGRA~2/MINGW-~1/I686-8~1.0-P/mingw32/bin/mingw32-make.exe -f CMakeFiles\cmTC_26364.dir\build.make CMakeFiles/cmTC_26364.dir/build
+mingw32-make.exe[1]: Entering directory 'C:/Users/fedin/CLionProjects/Game/cmake-build-release/CMakeFiles/CMakeTmp'
+Building C object CMakeFiles/cmTC_26364.dir/testCCompiler.c.obj
+C:\PROGRA~2\MINGW-~1\I686-8~1.0-P\mingw32\bin\gcc.exe    -o CMakeFiles\cmTC_26364.dir\testCCompiler.c.obj   -c C:\Users\fedin\CLionProjects\Game\cmake-build-release\CMakeFiles\CMakeTmp\testCCompiler.c
+Linking C executable cmTC_26364.exe
+"C:\Program Files\JetBrains\CLion 2020.1\bin\cmake\win\bin\cmake.exe" -E cmake_link_script CMakeFiles\cmTC_26364.dir\link.txt --verbose=1
+"C:\Program Files\JetBrains\CLion 2020.1\bin\cmake\win\bin\cmake.exe" -E remove -f CMakeFiles\cmTC_26364.dir/objects.a
+C:\PROGRA~2\MINGW-~1\I686-8~1.0-P\mingw32\bin\ar.exe cr CMakeFiles\cmTC_26364.dir/objects.a @CMakeFiles\cmTC_26364.dir\objects1.rsp
+C:\PROGRA~2\MINGW-~1\I686-8~1.0-P\mingw32\bin\gcc.exe    -static-libgcc -static-libstdc++ -static-libwinpthread  -Wl,--whole-archive CMakeFiles\cmTC_26364.dir/objects.a -Wl,--no-whole-archive  -o cmTC_26364.exe -Wl,--out-implib,libcmTC_26364.dll.a -Wl,--major-image-version,0,--minor-image-version,0 @CMakeFiles\cmTC_26364.dir\linklibs.rsp
+gcc.exe: error: unrecognized command line option '-static-libwinpthread'; did you mean '-static-libgfortran'?
+mingw32-make.exe[1]: *** [CMakeFiles\cmTC_26364.dir\build.make:88: cmTC_26364.exe] Error 1
+mingw32-make.exe[1]: Leaving directory 'C:/Users/fedin/CLionProjects/Game/cmake-build-release/CMakeFiles/CMakeTmp'
+mingw32-make.exe: *** [Makefile:120: cmTC_26364/fast] Error 2
+
+
+
+Determining if the C compiler works failed with the following output:
+Change Dir: C:/Users/fedin/CLionProjects/Game/cmake-build-release/CMakeFiles/CMakeTmp
+
+Run Build Command(s):C:/PROGRA~2/MINGW-~1/I686-8~1.0-P/mingw32/bin/mingw32-make.exe cmTC_d7e4c/fast && C:/PROGRA~2/MINGW-~1/I686-8~1.0-P/mingw32/bin/mingw32-make.exe -f CMakeFiles\cmTC_d7e4c.dir\build.make CMakeFiles/cmTC_d7e4c.dir/build
+mingw32-make.exe[1]: Entering directory 'C:/Users/fedin/CLionProjects/Game/cmake-build-release/CMakeFiles/CMakeTmp'
+Building C object CMakeFiles/cmTC_d7e4c.dir/testCCompiler.c.obj
+C:\PROGRA~2\MINGW-~1\I686-8~1.0-P\mingw32\bin\gcc.exe    -o CMakeFiles\cmTC_d7e4c.dir\testCCompiler.c.obj   -c C:\Users\fedin\CLionProjects\Game\cmake-build-release\CMakeFiles\CMakeTmp\testCCompiler.c
+Linking C executable cmTC_d7e4c.exe
+"C:\Program Files\JetBrains\CLion 2020.1\bin\cmake\win\bin\cmake.exe" -E cmake_link_script CMakeFiles\cmTC_d7e4c.dir\link.txt --verbose=1
+"C:\Program Files\JetBrains\CLion 2020.1\bin\cmake\win\bin\cmake.exe" -E remove -f CMakeFiles\cmTC_d7e4c.dir/objects.a
+C:\PROGRA~2\MINGW-~1\I686-8~1.0-P\mingw32\bin\ar.exe cr CMakeFiles\cmTC_d7e4c.dir/objects.a @CMakeFiles\cmTC_d7e4c.dir\objects1.rsp
+C:\PROGRA~2\MINGW-~1\I686-8~1.0-P\mingw32\bin\gcc.exe    -static-libgcc -static-libstdc++ -static-libwinpthread  -Wl,--whole-archive CMakeFiles\cmTC_d7e4c.dir/objects.a -Wl,--no-whole-archive  -o cmTC_d7e4c.exe -Wl,--out-implib,libcmTC_d7e4c.dll.a -Wl,--major-image-version,0,--minor-image-version,0 @CMakeFiles\cmTC_d7e4c.dir\linklibs.rsp
+gcc.exe: error: unrecognized command line option '-static-libwinpthread'; did you mean '-static-libgfortran'?
+mingw32-make.exe[1]: *** [CMakeFiles\cmTC_d7e4c.dir\build.make:88: cmTC_d7e4c.exe] Error 1
+mingw32-make.exe[1]: Leaving directory 'C:/Users/fedin/CLionProjects/Game/cmake-build-release/CMakeFiles/CMakeTmp'
+mingw32-make.exe: *** [Makefile:120: cmTC_d7e4c/fast] Error 2
+
+
+
+Determining if the C compiler works failed with the following output:
+Change Dir: C:/Users/fedin/CLionProjects/Game/cmake-build-release/CMakeFiles/CMakeTmp
+
+Run Build Command(s):C:/PROGRA~2/MINGW-~1/I686-8~1.0-P/mingw32/bin/mingw32-make.exe cmTC_02bda/fast && C:/PROGRA~2/MINGW-~1/I686-8~1.0-P/mingw32/bin/mingw32-make.exe -f CMakeFiles\cmTC_02bda.dir\build.make CMakeFiles/cmTC_02bda.dir/build
+mingw32-make.exe[1]: Entering directory 'C:/Users/fedin/CLionProjects/Game/cmake-build-release/CMakeFiles/CMakeTmp'
+Building C object CMakeFiles/cmTC_02bda.dir/testCCompiler.c.obj
+C:\PROGRA~2\MINGW-~1\I686-8~1.0-P\mingw32\bin\gcc.exe    -o CMakeFiles\cmTC_02bda.dir\testCCompiler.c.obj   -c C:\Users\fedin\CLionProjects\Game\cmake-build-release\CMakeFiles\CMakeTmp\testCCompiler.c
+Linking C executable cmTC_02bda.exe
+"C:\Program Files\JetBrains\CLion 2020.1\bin\cmake\win\bin\cmake.exe" -E cmake_link_script CMakeFiles\cmTC_02bda.dir\link.txt --verbose=1
+"C:\Program Files\JetBrains\CLion 2020.1\bin\cmake\win\bin\cmake.exe" -E remove -f CMakeFiles\cmTC_02bda.dir/objects.a
+C:\PROGRA~2\MINGW-~1\I686-8~1.0-P\mingw32\bin\ar.exe cr CMakeFiles\cmTC_02bda.dir/objects.a @CMakeFiles\cmTC_02bda.dir\objects1.rsp
+C:\PROGRA~2\MINGW-~1\I686-8~1.0-P\mingw32\bin\gcc.exe    -static-libgcc -static-libstdc++ -static-libwinpthread  -Wl,--whole-archive CMakeFiles\cmTC_02bda.dir/objects.a -Wl,--no-whole-archive  -o cmTC_02bda.exe -Wl,--out-implib,libcmTC_02bda.dll.a -Wl,--major-image-version,0,--minor-image-version,0 @CMakeFiles\cmTC_02bda.dir\linklibs.rsp
+gcc.exe: error: unrecognized command line option '-static-libwinpthread'; did you mean '-static-libgfortran'?
+mingw32-make.exe[1]: *** [CMakeFiles\cmTC_02bda.dir\build.make:88: cmTC_02bda.exe] Error 1
+mingw32-make.exe[1]: Leaving directory 'C:/Users/fedin/CLionProjects/Game/cmake-build-release/CMakeFiles/CMakeTmp'
+mingw32-make.exe: *** [Makefile:120: cmTC_02bda/fast] Error 2
+
+
+

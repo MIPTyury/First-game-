@@ -1,0 +1,5 @@
+"C:\Program Files\JetBrains\CLion 2020.1\bin\cmake\win\bin\cmake.exe" -DCMAKE_BUILD_TYPE= -G "CodeBlocks - MinGW Makefiles" C:\Users\fedin\CLionProjects\Game
+-- Found SFML 2.5.1 in C:/SFML/lib/cmake/SFML
+-- Configuring done
+-- Generating done
+-- Build files have been written to: C:/Users/fedin/CLionProjects/Game/cmake-build-mingw
