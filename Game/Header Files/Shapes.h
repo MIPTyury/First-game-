@@ -10,6 +10,7 @@
 class Block {
 private:
     sf::Vector2f size;
+
 public:
     sf::RectangleShape block;
 

@@ -1,10 +1,27 @@
-#include <C:/Users/fedin/CLionProjects/Game/Header Files/Shapes.h>
+#include "../Header Files/Shapes.h"
 
-int platform_collision(Block block, sf::Vector2f V, sf::CircleShape ball) {
 
+void block_collision(Block &block, sf::Vector2f &V, sf::CircleShape &ball) {
+  if (ball.getPosition().x >= block.getPos().x - ball.getRadius() &&
+      ball.getPosition().x <= block.getPos().x + block.getSize().x - ball.getRadius() &&
+      ball.getPosition().y == block.getPos().y + block.getSize().y) {
+    V.y = -V.y;
+  }
+  if (ball.getPosition().x >= block.getPos().x - ball.getRadius() &&
+      ball.getPosition().x <= block.getPos().x + block.getSize().x - ball.getRadius() &&
+      ball.getPosition().y + 2 * ball.getRadius() == block.getPos().y)  {
+    V.y = -V.y;
+  }
+
+  if (ball.getPosition().y >= block.getPos().y - ball.getRadius() &&
+      ball.getPosition().y <= block.getPos().y + block.getSize().y - ball.getRadius() &&
+      ball.getPosition().x + 2 * ball.getRadius() == block.getPos().x)  {
+    V.x = -V.x;
+  }
 }
 
 int main() {
+
   sf::ContextSettings settings;
   settings.antialiasingLevel = 16;
 
@@ -20,7 +37,22 @@ int main() {
   ball.setPosition(290, 660);
   ball.setFillColor(sf::Color::White);
 
-  //sf::SoundBuffer ball_hit_buffer;
+  sf::SoundBuffer ball_hit_buffer;
+  if (!ball_hit_buffer.loadFromFile("../Sounds/ball_hit.wav")) {
+    return -1;
+  }
+
+  sf::Sound ball_hit_sound;
+  ball_hit_sound.setBuffer(ball_hit_buffer);
+
+  sf::Music background_music;
+  if(!background_music.openFromFile("../Music/background_music.wav")) {
+    return -2;
+  }
+  background_music.setLoop(true);
+  background_music.setVolume(40);
+  background_music.play();
+
 
 
   sf::Font font;
@@ -63,12 +95,16 @@ int main() {
   sf::Vector2f V;
   sf::Vector2f plat_pos;
   sf::Vector2f plat_size;
+
   plat_size.x = 100;
   plat_size.y = 10;
+
   sf::Vector2i localPosition = sf::Mouse::getPosition(window);
+
   float alpha = localPosition.x / localPosition.y;
   V.x = (alpha * 2) / sqrtf(alpha * alpha + 1);
   V.y = 2 / sqrtf(alpha * alpha + 1);
+
   std::cout << localPosition.x << ' ' << localPosition.y << std::endl;
 
   sf::RectangleShape platform(plat_size);
@@ -78,38 +114,48 @@ int main() {
 
   float ball_radius = 10.f;
 
-//  Block row[10][6];
-//  for (int i = 0; i < 10; i++) {
-//    for (int j = 0; j < 6; j++) {
-//      row[i][j].setPos(9 + 59 * i, 12 + 20 * j);
-//    }
-//  }
+  Block row[10][6];
+  for (int i = 0; i < 10; i++) {
+    for (int j = 0; j < 6; j++) {
+      row[i][j].setPos(9 + 61 * i, 12 + 30 * j);
+    }
+  }
 
   while (window.isOpen()) {
     //window.draw(backsidesprite);
 
-//    for (int i = 0; i < 10; i++) {
-//      for (int j = 0; j < 6; j++) {
-//        window.draw(row[i][j].block);
-//      }
-//    }
+    for (int i = 0; i < 10; i++) {
+      for (int j = 0; j < 6; j++) {
+        block_collision(row[i][j], V, ball);
+      }
+    }
+
+    for (int i = 0; i < 10; i++) {
+      for (int j = 0; j < 6; j++) {
+        window.draw(row[i][j].block);
+      }
+    }
 
     time = clock.getElapsedTime();
+
     if (ball.getPosition().x >= modeWidth - 2 * ball_radius ||
         (ball.getPosition().x + 2 * ball_radius == platform.getPosition().x &&
          (ball.getPosition().y >= platform.getPosition().y &&
           ball.getPosition().y <
           platform.getPosition().y + platform.getSize().y))) {
       V.x = -V.x;
+      ball_hit_sound.play();
     }
     if (ball.getPosition().y <= 0 ||
         (ball.getPosition().y + 2 * ball_radius == platform.getPosition().y &&
          (ball.getPosition().x + 2 * ball_radius >= platform.getPosition().x &&
           ball.getPosition().x < platform.getPosition().x + plat_size.x))) {
       V.y = -V.y;
+      ball_hit_sound.play();
     }
     if (ball.getPosition().x < 0) {
       V.x = -V.x;
+      ball_hit_sound.play();
     }
     if (ball.getPosition().y >= modeHeight - 2 * ball_radius) {
       window.clear(sf::Color::Black);
@@ -123,14 +169,16 @@ int main() {
       window.draw(time_survived);
       platform.setPosition(250, 680);
       window.display();
-      _sleep(5000);
+      _sleep(1000);
       break;
     }
+
+
     ball.move(V.x, V.y);
-    // check all the window's events that were triggered since the last iteration of the loop
+
     sf::Event event;
     while (window.pollEvent(event)) {
-      // "close requested" event: we close the window
+
       if (event.type == sf::Event::Closed)
         window.close();
 
