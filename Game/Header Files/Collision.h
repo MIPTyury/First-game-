@@ -34,20 +34,35 @@ public:
     }
 };
 
-void block_collision(Block &block, sf::Vector2f &V, sf::CircleShape &ball) {
-    if (ball.getPosition().x >= block.getPos().x - ball.getRadius() &&
-        ball.getPosition().x <= block.getPos().x + block.getSize().x - ball.getRadius() &&
+void block_collision(Block &block, sf::Vector2f &V, sf::Sprite &ball, sf::Sound& ball_hit_sound, int ball_radius) {
+    if (ball.getPosition().x >= block.getPos().x - ball_radius &&
+        ball.getPosition().x <= block.getPos().x + block.getSize().x - ball_radius &&
         ball.getPosition().y == block.getPos().y + block.getSize().y) {
         V.y = -V.y;
+        block.setPos(1000, 1000);
+        ball_hit_sound.play();
     }
-    if (ball.getPosition().x >= block.getPos().x - ball.getRadius() &&
-        ball.getPosition().x <= block.getPos().x + block.getSize().x - ball.getRadius() &&
-        ball.getPosition().y + 2 * ball.getRadius() == block.getPos().y)  {
+    if (ball.getPosition().x >= block.getPos().x - ball_radius &&
+        ball.getPosition().x <= block.getPos().x + block.getSize().x - ball_radius &&
+        ball.getPosition().y + 2 * ball_radius == block.getPos().y)  {
         V.y = -V.y;
+        block.setPos(1000, 1000);
+        ball_hit_sound.play();
     }
-    if (ball.getPosition().y >= block.getPos().y - ball.getRadius() &&
-        ball.getPosition().y <= block.getPos().y + block.getSize().y - ball.getRadius() &&
-        ball.getPosition().x + 2 * ball.getRadius() == block.getPos().x)  {
+    if (ball.getPosition().y >= block.getPos().y - ball_radius &&
+        ball.getPosition().y <= block.getPos().y + block.getSize().y - ball_radius &&
+        ball.getPosition().x + 2 * ball_radius == block.getPos().x)  {
         V.x = -V.x;
+        block.setPos(1000, 1000);
+        ball_hit_sound.play();
     }
+
+    if (ball.getPosition().y >= block.getPos().y - ball_radius &&
+        ball.getPosition().y <= block.getPos().y + block.getSize().y - ball_radius &&
+        ball.getPosition().x == block.getPos().x + block.getSize().x)  {
+        V.x = -V.x;
+        block.setPos(1000, 1000);
+        ball_hit_sound.play();
+    }
+
 }
