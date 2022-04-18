@@ -1,24 +1,4 @@
-#include "../Header Files/Shapes.h"
-
-
-void block_collision(Block &block, sf::Vector2f &V, sf::CircleShape &ball) {
-  if (ball.getPosition().x >= block.getPos().x - ball.getRadius() &&
-      ball.getPosition().x <= block.getPos().x + block.getSize().x - ball.getRadius() &&
-      ball.getPosition().y == block.getPos().y + block.getSize().y) {
-    V.y = -V.y;
-  }
-  if (ball.getPosition().x >= block.getPos().x - ball.getRadius() &&
-      ball.getPosition().x <= block.getPos().x + block.getSize().x - ball.getRadius() &&
-      ball.getPosition().y + 2 * ball.getRadius() == block.getPos().y)  {
-    V.y = -V.y;
-  }
-
-  if (ball.getPosition().y >= block.getPos().y - ball.getRadius() &&
-      ball.getPosition().y <= block.getPos().y + block.getSize().y - ball.getRadius() &&
-      ball.getPosition().x + 2 * ball.getRadius() == block.getPos().x)  {
-    V.x = -V.x;
-  }
-}
+#include "../Header Files/Collision.h"
 
 int main() {
 
@@ -53,10 +33,8 @@ int main() {
   background_music.setVolume(40);
   background_music.play();
 
-
-
   sf::Font font;
-  if (!font.loadFromFile("C:/Users/fedin/CLionProjects/Game/Fonts/Times New Roman.ttf")) {
+  if (!font.loadFromFile("../Fonts/Times New Roman.ttf")) {
     return -10;
   }
 
@@ -76,15 +54,19 @@ int main() {
   time_survived.setPosition(110, 450);
 
   sf::Image icon;
-  if (!icon.loadFromFile("C:/Users/fedin/CLionProjects/Game/images/Game_picture.ico")) {
+  if (!icon.loadFromFile("../images/Game_picture.ico")) {
     return 1;
   }
   window.setIcon(128, 128, icon.getPixelsPtr());
 
   sf::Image backside;
-  if (!backside.loadFromFile("C:/Users/fedin/CLionProjects/Game/images/backsidepng.png")) {
+  if (!backside.loadFromFile("../images/backsidepng.png")) {
     return -1;
   }
+
+  sf::Image ball_image;
+  if (!ball_image.loadFromFile("../images/ball.png"))
+    return -3;
 
   sf::Texture backsidetext;
   backsidetext.loadFromImage(backside);
@@ -102,8 +84,8 @@ int main() {
   sf::Vector2i localPosition = sf::Mouse::getPosition(window);
 
   float alpha = localPosition.x / localPosition.y;
-  V.x = (alpha * 2) / sqrtf(alpha * alpha + 1);
-  V.y = 2 / sqrtf(alpha * alpha + 1);
+  V.x = truncf((2 * alpha) / sqrtf(alpha * alpha + 1)) + 0.5;
+  V.y = truncf(2 / sqrtf(alpha * alpha + 1)) + 0.5;
 
   std::cout << localPosition.x << ' ' << localPosition.y << std::endl;
 
@@ -173,7 +155,6 @@ int main() {
       break;
     }
 
-
     ball.move(V.x, V.y);
 
     sf::Event event;
@@ -204,6 +185,5 @@ int main() {
     window.display();
     window.clear();
   }
-
   return 0;
 }

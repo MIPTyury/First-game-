@@ -92,6 +92,6 @@ CMakeFiles/Game.dir/Source_Files/First_game.cpp.obj: C:/SFML/include/SFML/Window
 CMakeFiles/Game.dir/Source_Files/First_game.cpp.obj: C:/SFML/include/SFML/Window/Window.hpp
 CMakeFiles/Game.dir/Source_Files/First_game.cpp.obj: C:/SFML/include/SFML/Window/WindowHandle.hpp
 CMakeFiles/Game.dir/Source_Files/First_game.cpp.obj: C:/SFML/include/SFML/Window/WindowStyle.hpp
-CMakeFiles/Game.dir/Source_Files/First_game.cpp.obj: ../Header\ Files/Shapes.h
+CMakeFiles/Game.dir/Source_Files/First_game.cpp.obj: ../Header\ Files/Collision.h
 CMakeFiles/Game.dir/Source_Files/First_game.cpp.obj: ../Source\ Files/First_game.cpp
 

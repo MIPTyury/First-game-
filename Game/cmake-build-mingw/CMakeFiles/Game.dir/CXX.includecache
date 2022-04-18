@@ -850,7 +850,7 @@ SFML/Config.hpp
 
 C:/SFML/include/SFML/Window/WindowStyle.hpp
 
-C:/Users/fedin/CLionProjects/Game/Header Files/Shapes.h
+C:/Users/fedin/CLionProjects/Game/Header Files/Collision.h
 SFML/Graphics.hpp
 -
 SFML/Config.hpp
@@ -865,6 +865,6 @@ cmath
 -
 
 C:/Users/fedin/CLionProjects/Game/Source Files/First_game.cpp
-../Header Files/Shapes.h
-C:/Users/fedin/CLionProjects/Game/Header Files/Shapes.h
+../Header Files/Collision.h
+C:/Users/fedin/CLionProjects/Game/Header Files/Collision.h
 
